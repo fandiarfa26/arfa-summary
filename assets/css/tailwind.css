@@ -3,3 +3,19 @@
 @import 'tailwindcss/base';
 @import 'tailwindcss/components';
 @import 'tailwindcss/utilities';
+
+.card {
+    @apply bg-white;
+    @apply rounded-lg;
+    @apply p-5;
+    @apply shadow-md;
+}
+
+.card-title {
+    @apply font-bold;
+    @apply inline-block;
+}
+
+.caretUp {
+    @apply rotate-180;
+}
