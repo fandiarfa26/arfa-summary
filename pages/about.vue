@@ -47,7 +47,7 @@ export default {
         id: 1,
         name: 'M. Fandi Arfabuma',
         title: 'Mahasiswa S1 Teknik Informatika',
-        photo: 'https://dummyimage.com/225x225/aaaaaa/fff'
+        photo: require('~/assets/images/fandi.jpg')
       },
       {
         id: 2,
